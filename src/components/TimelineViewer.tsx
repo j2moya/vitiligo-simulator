@@ -51,10 +51,13 @@ export const TimelineViewer: React.FC<TimelineViewerProps> = ({ images }) => {
 
     return (
         <div className="w-full flex flex-col items-center">
-             <h2 className="text-xl font-semibold text-gray-700 mb-4">Before & After Simulation</h2>
+             <h2 className="text-xl font-semibold text-gray-700 mb-4">Before & After</h2>
             <div className="w-full grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <ImageCard image={originalImage} title="Original" />
                 <ImageCard image={finalImage} title="After 4.5 Years" />
+            </div>
+            <div className="mt-6 w-full max-w-md text-center p-3 bg-blue-50 border border-blue-200 rounded-lg">
+                <p className="text-sm text-blue-800 font-medium">JBL4 treatment 62 sessions 6 times according to MED test results</p>
             </div>
         </div>
     );
