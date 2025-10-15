@@ -1,0 +1,5 @@
+{
+  "name": "Vitiligo Evolution Simulator",
+  "description": "An interactive tool to visualize the potential evolution of Vitiligo repigmentation over a 4.5-year period using generative AI. Upload an image and select parameters to see a simulated timeline.",
+  "requestFramePermissions": []
+}
